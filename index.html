@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <title>World Editor</title>
+  </head>
+  <body>
+    <h1>World Editor</h1>
+    <canvas id="myCanvas" width="600" height="600"></canvas>
+    <div id="controls">
+      <button onclick="addRandomPoint()">Add Point</button>
+      <button onclick="addRandomSegment()">Add Segment</button>
+    </div>
+
+    <script defer src="js/math/graph.js"></script>
+    <script defer src="js/primitives/segment.js"></script>
+    <script defer src="js/primitives/point.js"></script>
+    <script defer src="script.js"></script>
+  </body>
+</html>
