@@ -8,10 +8,17 @@
     <h1>World Editor</h1>
     <canvas id="myCanvas" width="600" height="600"></canvas>
     <div id="controls">
-      <button onclick="addRandomPoint()">Add Point</button>
+      <!-- <button onclick="addRandomPoint()">Add Point</button>
+      <button onclick="removeRandomPoint()">Remove Point</button>
       <button onclick="addRandomSegment()">Add Segment</button>
+      <button onclick="removeRandomSegment()">Remove Segment</button>
+      <button onclick="removeAll()">Remove All</button> -->
+      <button onclick="dispose()">Dispose</button>
+      <button onclick="save()">Save</button>
     </div>
-
+    <script defer src="js/graphEditor.js"></script>
+    <script defer src="js/viewport.js"></script>
+    <script defer src="js/math/utils.js"></script>
     <script defer src="js/math/graph.js"></script>
     <script defer src="js/primitives/segment.js"></script>
     <script defer src="js/primitives/point.js"></script>
